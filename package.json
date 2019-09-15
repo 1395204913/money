@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "全栈项目-后台管理",
+  "main": "server.js",
+  "scripts": {
+    "font-end-install": "npm install --prefix font-web",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "font-end": "npm start --prefix font-end",
+    "dev": "concurrently \"npm run server\" \"npm run font-end\""
+  },
+  "author": "wangkai",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
