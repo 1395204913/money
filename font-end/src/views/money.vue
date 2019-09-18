@@ -1,11 +1,14 @@
 <template>
     <div class="fillcontain">
         <div>
+          <!-- 
+            
+           -->
             <el-form
                 :inline="true"
                 ref="search_data" 
                 :model='search_data' >
-                <!-- <el-form-item label="投标时间筛选:">
+                <el-form-item label="时间筛选:">
                     <el-date-picker
                         v-model="search_data.startTime"
                         type="datetime"
@@ -16,10 +19,10 @@
                         type="datetime"
                         placeholder="选择结束时间">
                     </el-date-picker>
-                </el-form-item> -->
-                <!-- <el-form-item>
+                </el-form-item> 
+                 <el-form-item>
                     <el-button type="primary" size ="small" icon="search" @click='onScreeoutMoney()'>筛选</el-button>
-                </el-form-item> -->
+                </el-form-item>
                  <el-form-item class="btnRight">
                     <el-button type="primary" size ="small" icon="view" @click='onAddMoney()'>添加</el-button>
                 </el-form-item>

@@ -1,7 +1,6 @@
 <template>
     <div class="home">
         <div class="container">
-            
             <p>养成记账好习惯</p>
             <p>--王凯</p>
             <img src="../assets/home.jpg" alt="">

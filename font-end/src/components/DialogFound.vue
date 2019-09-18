@@ -74,6 +74,9 @@ export default {
         "发工资"
       ],
       form_rules: {
+        type: [
+          { required: true, message: "类型不能为空", trigger: "blur" }
+        ],
         describe: [
           { required: true, message: "收支描述不能为空！", trigger: "blur" }
         ],
