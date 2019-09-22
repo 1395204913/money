@@ -1,4 +1,5 @@
 module.exports={
-    mongoURI:"mongodb+srv://admin:wangkai@cluster0-akyhr.mongodb.net/test?retryWrites=true&w=majority",
+    // 用户名 密码
+    mongoURI:"mongodb+srv://用户名:密码@cluster0-akyhr.mongodb.net/test?retryWrites=true&w=majority",
     secretOrKey:"secret"
 }
